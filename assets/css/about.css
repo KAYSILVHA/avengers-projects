@@ -1,0 +1,38 @@
+/*ABOUT*/
+.ab-main{
+    background-color: black;
+    width: 100vh;
+}
+.ab-texts .text{
+    font-size: 20px;
+    width: 800px;
+    height: 500px;
+    padding: 30px 10px;
+    margin: 250px 0 0 50px;
+    
+    color: white;
+    text-align: justify;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.ab-texts{
+    width: 50vh;
+}
+
+.ab-texts .title{
+    padding-bottom: 40px;
+    font-size: 80px;
+    color: white;
+    padding: 50px;
+  
+}
+
+.background{
+    height: calc(100vh - 70px);
+    background-color: #D90F0F;
+    display: flex;
+    
+}
