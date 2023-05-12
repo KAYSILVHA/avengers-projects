@@ -1,38 +1,54 @@
 /*ABOUT*/
-.ab-main{
+
+body{
     background-color: black;
-    width: 100vh;
-}
-.ab-texts .text{
-    font-size: 20px;
-    width: 800px;
-    height: 500px;
-    padding: 30px 10px;
-    margin: 250px 0 0 50px;
-    
-    color: white;
-    text-align: justify;
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
-    
+    width: 100%;
 }
 
+main{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url('https://4kwallpapers.com/images/wallpapers/iron-man-avengers-infinity-war-black-background-5k-8k-2560x1080-463.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 550px;
+
+}
 .ab-texts{
-    width: 50vh;
+    width: calc(50% - 100px);
 }
 
 .ab-texts .title{
     padding-bottom: 40px;
     font-size: 80px;
     color: white;
-    padding: 50px;
-  
+    padding: 50px 0;
 }
 
-.background{
+.ab-texts .text{
+    font-size: 20px;
+    width: 800px;
+    height: 500px;
+    padding: 30px 10px;
+    margin: 250px 0 0 ;
+    color: white;
+    text-align: justify;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+
+
+.back{
+    width: 20%;
     height: calc(100vh - 70px);
-    background-color: #D90F0F;
+    background-image: url('../img/back.jpg');
+    background-position: center;
+    background-position-y: 30%;
+    background-position-x: center;
     display: flex;
-    
+    opacity: .8;
+
 }
