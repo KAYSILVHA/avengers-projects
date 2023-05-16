@@ -1,0 +1,9 @@
+body{
+  background-color : black;
+  background-image: url("../img/back-vingadores.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main{
+}
