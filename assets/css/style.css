@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url("../img/background.png");
+    background-image: url("https://images2.imgbox.com/46/84/LVSJtezO_o.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,7 +26,7 @@ body{
 .film-grid .film-2{
     width: 100%;
     height: calc((100vh - 70px)/3 - 5px );
-    background-image: url("../img/filme2.jpg");
+    background-image: url("https://images2.imgbox.com/0e/7d/dbqKVXSl_o.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body{
 .film-grid .film-3{
     width: 100%;
     height: calc((100vh - 70px)/3 - 5px );
-    background-image: url("../img/filme3.jpg");
+    background-image: url("https://images2.imgbox.com/f5/d5/2Z2QupaK_o.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
